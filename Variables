@@ -1,0 +1,79 @@
+1. Variables: are containers that store values temporarily.
+   
+   Eg;  >>> cars = 'toyota', 'benz', 'ford'
+	>>> print cars
+	('toyota', 'benz', 'ford')
+	
+	so in the example above cars become the variable where it values are toyota, benz, ford.
+
+
+2. Reserved words are words that can not be used as variables. Examples are listed below.
+
+and, exec, not, assert, finally, or, break, for, pass, class, from, print, continue, global, raise, def, if, return, del, import, try, elif, in, while, else, is, with, except, lambda, yield
+
+
+3. Types of values/data type
+   
+	There are five standard data types: numbers, strings, list, tuple and dictionary.
+
+	Numbers: number data types store numeric values.
+
+    Eg;	>>> age = 10, 15, 20
+	>>> print age
+	(10, 15, 20)
+	
+	Strings: strings in python are characters represented in the quotation marks. so in these 		case it can be text or number onces it appears in the quotation mark it is a string.
+
+    Eg;	>>> regions = 'accra', 'ashanti', 'volta', 'northern'
+	>>> print regions
+	('accra', 'ashanti', 'volta', 'northern')
+
+	Lists: a list contians items seperated by commas and enclosed within square brackets. 		       Lists are the most versatile of Python's compound data types.
+
+    Eg;	>>> list = ['sugar', 'milo', 'coffee', 007, 419]
+	>>> print list
+	['sugar', 'milo', 'coffee', 7, 419]
+	
+	Tuples; A tuple is another sequence data type that is similar to the list. A tuple 		consists of a number of values separated by commas. Unlike lists, however, tuples are 		enclosed within parentheses. The main differences between lists and tuples are: Lists are 		enclosed in brackets ( [ ] ) and their elements and size can be changed, while tuples are 		enclosed in parentheses ( ( ) ) and cannot be updated. Tuples can be thought of as 
+	read-only lists.
+
+    Eg;	>>> tuple = ('abcd', 786, 2.23, 'Alex')
+	>>> print tuple
+	('abcd', 786, 2.23, 'Alex')
+	
+	Dictionary: A dictionary key can be almost any Python type, but are usually numbers or 		strings. Values, on the other hand, can be any arbitrary Python object.
+	Dictionaries are enclosed by curly braces ({ }) and values can be assigned and accessed 	using square braces ([]).
+
+    Eg;	
+
+
+
+
+4. Operators:Operators are the constructs which can manipulate the value of operands.Consider the 		     expression 4 + 5 = 9. Here, 4 and 5 are called operands and + is called operator.
+
+	Operator types; arithmetic, comparison, assignment, logical, bitwise, membership, identity 				operators.
+
+
+
+
+
+
+   
+raw input
+ name = raw_input('what is my name')
+what is my name Alexander>>> name = raw_input('what is my name')
+what is my name Alexander
+>>> name
+' Alexander'
+
+>>> time = raw_input('what time is it')
+what time is it
+>>> time = raw_input ('what time is it ?')
+what time is it ?hello world time
+>>> time[6]
+'w'
+del: is used to delete a variable
+list is a group of informations seperated by comas
+Print: collects an information you want to display and just outputs it.
+find out text that has already been used by python and are not to be used
+tutorialspoint.com/python
